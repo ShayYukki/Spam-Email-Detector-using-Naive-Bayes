@@ -1,5 +1,4 @@
 #Shayling Zhao
-#NetID: SXZ190015
 
 import math
 import os
@@ -67,7 +66,6 @@ def testH(testHam, hamDict, spamDict):
             prob = 1 / (sum(spamDict.values()) + len(spamDict.keys()))
             h_probSpam += math.log(prob, 2)
     return h_probHam, h_probSpam
-
 
 
 def testS(testSpam, hamDict, spamDict):
